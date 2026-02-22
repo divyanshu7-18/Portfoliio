@@ -13,6 +13,5 @@ function App() {
   );
 }
 
-Yuvi
 
 export default App;
