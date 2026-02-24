@@ -1,12 +1,15 @@
 import { ArrowRight, ExternalLink, Github } from "lucide-react";
+import islImage from "../assets/projects/isl.png";
+import gymImage from "../assets/projects/gym.png";
+import portfolioImage from "../assets/projects/portfolio.png";
 
 const projects = [
   {
     id: 1,
     title: "Indian Sign Language Recognition",
     description:
-    "CNN-based deep learning model to recognize Indian Sign Language gestures using TensorFlow and OpenCV with real-time hand detection and gesture classification.",
-    image: "isl.png",
+      "CNN-based deep learning model to recognize Indian Sign Language gestures using TensorFlow and OpenCV with real-time hand detection and gesture classification.",
+    image: islImage,
     tags: ["Python", "TensorFlow", "OpenCV", "Deep Learning"],
     demoUrl: "#",
     githubUrl: "https://github.com/divyanshu7-18",
@@ -15,8 +18,8 @@ const projects = [
     id: 2,
     title: "Gym Membership Portal (GymSick)",
     description:
-    "Full-stack gym management system with authentication, real-time database integration, and responsive dashboards built using React, Firebase, and Vite.",
-    image: "/projects/gym.png",
+      "Full-stack gym management system with authentication, real-time database integration, and responsive dashboards built using React, Firebase, and Vite.",
+    image: gymImage,
     tags: ["React", "Firebase", "Vite", "JavaScript"],
     demoUrl: "#",
     githubUrl: "https://github.com/divyanshu7-18",
@@ -26,9 +29,9 @@ const projects = [
     title: "Personal Portfolio Website",
     description:
       "Modern animated developer portfolio built with React and Tailwind CSS. Features smooth animations, dynamic theming, responsive layouts, and interactive UI components.",
-    image: "/projects/portfolio.png",
+    image: portfolioImage,
     tags: ["React", "Tailwind CSS", "Framer Motion", "Responsive Design"],
-    demoUrl: "#", // Replace with deployed link
+    demoUrl: "#",
     githubUrl: "https://github.com/divyanshu7-18",
   },
 ];
